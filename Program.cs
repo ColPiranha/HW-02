@@ -1,0 +1,30 @@
+﻿bool a = true;
+sbyte b = -11;
+short c = 48;
+int d = 1631265;
+long e = 2226555222;
+byte f = 128;
+ushort g = 32768;
+uint h = 558888;
+ulong i = 72362398412364;
+float j = 0.451F;
+double k = 13434.5352D;
+char l = 'c';
+decimal m = 3.14236346M;
+string n = "string";
+
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(bool), a, sizeof(bool));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(sbyte), b, sizeof(sbyte));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(short), c, sizeof(short));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(int), d, sizeof(int));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(long), e, sizeof(long));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(byte), f, sizeof(bool));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(ushort), g, sizeof(ushort));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(uint), h, sizeof(uint));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(ulong), i, sizeof(ulong));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(float), j, sizeof(float));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(double), k, sizeof(double));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(char), l, sizeof(char));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(decimal), m, sizeof(decimal));
+Console.WriteLine("Тип: {0} Пример: {1} Размер в байтах: {2}", typeof(string), n, n.Length * sizeof(char));
+
